@@ -1,0 +1,41 @@
+{
+  "name": "dolorumratione",
+  "version": "1.0.0",
+  "description": "A JS library to provide configuration points allowing declarative configuration for programs.",
+  "main": "dist/index_bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlancheLuettgen/dolorumratione.git"
+  },
+  "author": "KaileeArmstrong",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1.16.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "json5": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "lodash": "^4.17.21",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/BlancheLuettgen/dolorumratione.git/issues"
+  }
+}
